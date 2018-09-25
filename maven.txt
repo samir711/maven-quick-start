@@ -1,0 +1,9 @@
+java -cp  maven-quick-start-1.0.jar clinic.programming.training.Application
+
+mvn archetype:generate
+maven-archetype
+44
+
+
+
+mvn archetype:generate -DgroupId=clinic.programming.training -DartifactId=jumpstart-example -DarchetypeArtifiactId=maven-archetype-quickstart -DinteractiveMode=false
